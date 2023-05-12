@@ -135,10 +135,23 @@ button:hover{
 /* responsive */
 
 @media  screen and (max-width:400px) {
-    .login-form{
-        width: 250px;
-        height: 100vh;
+      .login-form{
+        width: 350px;
     }
+
+    .flex label{
+        font-size: 14px;
+    }
+.flex a{
+    font-size: 14px;
+}
+
+    .flex{
+    
+        text-align: center;
+    }
+
+   
    
 }
 
