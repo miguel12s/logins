@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Login Form</title>
+    <link rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+    <div class="login-form">
+        <img src="userIcon.png" alt="iconUser" />
+        <h1>Login</h1>
+
+        <form>
+            <div class="form-item">
+                <label for="email">Email<input type="email" name="email" id="email" placeholder="Email Or Username" />
+                </label>
+            </div>
+            <div class="form-item">
+                <label for="password">Password
+                    <input type="password" name="password" id="password" placeholder="Password" />
+                </label>
+            </div>
+            <div class="flex">
+                <label for="remember">
+                    <input type="checkbox" name="remember_me" id="remember_me" checked />
+                    Remember me
+                </label>
+                <a href="">Forgot Your Password</a>
+            </div>
+            <button class="btn btn-primary" type="submit">Sign In</button>
+            <div class="flex">
+                <p>Don't have an account</p>
+                <a style="text-decoration: none" href="">Register</a>
+            </div>
+        </form>
+    </div>
+</body>
+
+</html>
